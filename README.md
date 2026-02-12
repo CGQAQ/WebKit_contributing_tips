@@ -41,7 +41,7 @@ git webkit setup
 ```
 
 
-## Starting to Contribute
+## Starting to Contribute [offical guide](https://webkit.org/contributing-code/#code-style-guidelines)
 ### Check code style after you done your changes
 ```bash
 check-webkit-style
