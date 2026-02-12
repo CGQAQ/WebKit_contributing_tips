@@ -20,8 +20,12 @@ git config core.fsmonitor true
 git config pull.rebase true
 
 
-# set Scripts path for WebKit
-# put it in your ~/.zshrc (recommended)
+# Set Scripts path for WebKit.
+# Put it in your ~/.zshrc (recommended).
+# If you don't want to add it to ~/.zshrc,
+# the 'git webkit` should be all replaced by
+# './Tools/Scripts/git-webkit', and all scripts
+# should be replaced by './Tools/Scripts/[script-name]'
 export PATH=$PATH:$(pwd)/Tools/Scripts
 ```
 
