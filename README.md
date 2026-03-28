@@ -60,6 +60,12 @@ check-webkit-style
 
 ### 2. Build
 
+> NOTE: You need metal, install by running:
+```
+xcodebuild -downloadComponent MetalToolchain
+```
+
+Then, you can build:
 ```bash
 build-webkit --debug          # Debug build
 build-webkit --release        # Release build
