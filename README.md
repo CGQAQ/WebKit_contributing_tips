@@ -76,6 +76,7 @@ To generate a compilation database for IDEs (VS Code, CLion, etc.):
 
 ```bash
 build-webkit --export-compile-commands
+generate-compile-commands WebKitBuild/Release
 ```
 
 ### 3. Run Tests
